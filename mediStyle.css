@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+    .navContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .navSpan{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;text-align: center;
+        padding-right: 15px;
+    }
+
+    .navContainer span,
+    h2 {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        /* margin-left: 20px; */
+
+    }
+
+    .FeatureContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .featureImg{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        
+    }
+    .featureTitle{
+        padding-left:100px;
+    }
+    .ExperienceContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 50px;
+    }
+    .SomeFactsContainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .factsContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 15px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .SponsorsContainer{
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsorsImg{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 15px;
+    }
+    .footerAbout{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
